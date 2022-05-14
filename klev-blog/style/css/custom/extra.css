@@ -1,0 +1,113 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #0c0c0c !important
+}
+.carousel-item img{
+    height: 500px;
+    object-fit: cover;
+    object-position: center ;
+}
+#mainNavbar{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+}
+.dropdown-item:hover{
+    background-color: #131518;
+}
+footer{
+    background-color: #0b0b0b;
+}
+footer ul{
+    list-style: none;
+}
+footer li a{
+    text-decoration: none;
+    color: #bdbdbd;
+    line-height: 30px;
+}
+footer li a:hover{
+    color: #8a8a8a;
+
+}
+/* card */
+.card{
+    background-color: #131313;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 7px 29px 0px;
+}
+.list-group-item{
+    background-color: #131313 !important;
+
+}
+.list-group-item:hover{
+    background-color: #0e0e0e !important;
+}
+.card p,
+.category a,
+table td,table th{
+    color: #cdcdcd !important;
+}
+
+.category .active{
+    border-color: #212529 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    color: #cdcdcd !important;
+
+}
+.page-item a{
+    background-color: #131313 !important;
+    color: #acacac !important;
+}
+.pagination > .active a{
+    border-color: #262626 !important;
+    color: #7d7d7d !important;
+
+
+}
+.page-item a:hover{
+    border-color: #212529 !important;
+    background-color: #131313 !important;
+    color: #7d7d7d !important;
+}
+.form-control{
+    background-color: unset !important;
+    color: #fff !important;
+}
+form label{
+    color: #acacac !important;
+
+}
+.img-thumbnail{
+    background-color: #101010 !important;
+    color: #8a8a8a !important;
+}
+.log{
+    padding: 200px 0;
+}
+.profile-bg{
+    padding: 100px 0;
+
+    background-image: url("../../../img/profile-bg.gif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.unauthorize-bg{
+    padding: 200px 0;
+    background-image: url("../../../img/skull-bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
